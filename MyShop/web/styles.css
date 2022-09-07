@@ -1,0 +1,373 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2022, 12:52:32 PM
+    Author     : Kayt
+*/
+nav{
+    background-color: #fccd1e;
+}
+
+img {
+    float: left;
+    width:  210px;
+    max-height: 250px;;
+    object-fit: cover;
+}
+
+.container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body{
+
+    margin:0;
+    padding:0;
+    background:#fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;	
+}
+.logo{
+    height: 180px;
+    text-align: center;
+}
+
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #000;
+    display: inline-block;
+    position:relative;
+    margin-top: 50px;
+}
+.logo h1 a{
+    text-decoration:none;
+    color: #000;
+}
+.search-form {
+    width: 55%;
+    height: 200px;
+    margin: 0 auto;
+}
+.search-form input[type='text']{
+    margin-top: 50px;
+    width: 85%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.45);
+}
+.search-form input[type='submit']{
+    width: 80px;
+    height: 41px;
+    outline: none;
+    border: 1px solid #fff;
+    background: url(../images/can.png) no-repeat 6px 7px #FCCD1E;
+    display: inline-block;
+}
+.search-form input[type='submit']:hover {
+    background: url(../images/can.png) no-repeat 6px 7px #039445;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+label{
+    font-size: 18px
+}
+
+.product-form label{
+    height: 40px;
+    margin: 2px;
+    background-color: #00ff99;   
+}
+
+.product-form input[type='number']{
+    width: 70px;
+
+}
+
+.user-form label{
+    height: 40px;
+    margin: 2px;
+    background-color: #00ff99;   
+}
+
+.cart-form input[type='number']{
+    width: 70px;
+
+}
+
+footer {
+    background: #353535;
+    padding: 3em 0;
+    bottom:0;
+}
+.footer-grid h3 {
+    color: #fff;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+.footer-grid p {
+    color: #ABABAB;
+    line-height: 2.2em;
+    font-size: 14px;
+}
+.footer-grid ul li{
+    list-style-type:none;
+    font-size:14px;
+    line-height:2.2em;
+    color: #ABABAB;
+
+}
+.footer-grid ul li a{
+
+    color: #ABABAB;		
+}
+.footer-grid ul li a:hover{
+    color:#FAB005;		
+}
+
+
+.carousel {
+    background: #512da8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.m-wthree {
+    width: 50%;
+    float: left;
+    margin-bottom: 1em;
+    padding: 0 3px;
+}
+
+.mid-1 h6 {
+    font-size: 1.2em;
+}
+.mid-1 h6 a {
+    color: #000000;
+    text-decoration:none;
+}
+.mid-1 h6 a:hover {
+    color: #FAB005;
+}
+.mid-2 p{
+    float:left;
+    font-size:1em;
+    color:#B4B4B4;
+}
+.mid-2 p em{
+    font-style:normal;
+}
+
+.mid-2 {
+    height: 2.5em;
+    padding: 0.5em 0;
+}
+.mid-1 {
+    padding: 3em 0 0;
+}
+.block {
+    float: right;
+}
+.add{
+    text-align:center;
+    align-items: center;
+}
+
+.totals {
+    .totals-item {
+        float: left;
+        clear: both;
+        width: 100%;
+        margin-bottom: 10px;
+
+        label {
+            float: left;
+            clear: both;
+            width: 79%;
+            text-align: right;
+        }
+
+        .totals-value {
+            float: right;
+            width: 21%;
+            text-align: right;
+        }
+    }
+
+    .totals-item-total {
+        font-family: sans-serif;
+    }
+}
+
+.checkout {
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.checkout:hover {
+    background-color: #494;
+}
+
+.my-cart-btn1 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background-color:#FAB005;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-size:1em;
+    text-decoration:none;
+    border: none;
+}
+.my-cart-btn1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#029241;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border: none;
+}
+.my-cart-btn1:hover, .my-cart-btn1:focus, .my-cart-btn1:active {
+    color: white;
+    text-decoration:none;
+    border:none;
+    background: #FAB005;
+    border-radius: 0;
+}
+.my-cart-btn1:hover:before, .my-cart-btn1:focus:before, .my-cart-btn1:active:before {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    text-decoration:none;
+}
+
+.login{
+    padding:6em 0;
+}
+.main-agileits {
+    width: 30%;
+    margin: 0em auto ;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -o-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -moz-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -webkit-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    padding: 3em ;
+}
+
+.key  input[type="text"] ,.key  input[type="password"]{
+    width: 89%;
+    padding: 10px 10px;
+    font-size: 1em;
+    border: none;
+    border-bottom: none;
+    outline: none;
+    color: #999;
+    float: left;
+    background: none;
+}
+.key i{
+    float: left;
+    color: #999;
+    font-size: 1.1em;
+    padding: 13px;
+}
+.key {
+    background: #fff;
+    border: 1px solid #999;
+    margin-bottom: 2em;
+}
+.form-w3agile h3{
+    color: #029241;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.form-w3agile input[type="submit"] {
+    background: #fdb515;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 32%;
+    cursor: pointer;
+    margin-bottom:30px;
+}
+.form-w3agile  input[type="submit"]:hover{
+    background:#029241;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+.forg a {
+    text-decoration: none;
+    color: #029241;
+    font-size:1em;
+}
+.forg a:hover{
+    color:#fdb515;
+}
+.forg-left{
+    float:left;
+}
+.forg-right{
+    float:right;
+}
+.form1 input[type="submit"] {
+    margin-bottom:0;
+}
+
+.img-responsive{
+    height: 210px;
+    width: 100%;    
+}
